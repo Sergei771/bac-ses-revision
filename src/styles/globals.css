@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 250, 250, 250;
+  --background-end-rgb: 255, 255, 255;
+}
+
+.dark {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 10, 10, 20;
+  --background-end-rgb: 20, 20, 30;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer base {
+  h1 {
+    @apply text-3xl font-bold font-heading mb-4;
+  }
+  h2 {
+    @apply text-2xl font-semibold font-heading mb-3;
+  }
+  h3 {
+    @apply text-xl font-medium font-heading mb-2;
+  }
+  p {
+    @apply mb-4;
+  }
+}
+
+/* Correction des problèmes de z-index pour la navigation */
+header {
+  position: relative;
+  z-index: 100;
+}
+
+aside {
+  position: relative;
+  z-index: 90;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+}
+
+/* Assure que les éléments interactifs restent cliquables */
+a, button, [role="button"], input, textarea, select {
+  position: relative;
+  z-index: 50;
+  pointer-events: auto !important;
+}
+
+/* Correction pour les éléments de formulaire dans les chapitres */
+main form * {
+  position: relative;
+}
+
+@layer components {
+  .card {
+    @apply bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-all duration-300 hover:shadow-lg;
+  }
+  
+  .card-eco {
+    @apply border-l-4 border-eco-blue;
+  }
+  
+  .card-socio {
+    @apply border-l-4 border-socio-purple;
+  }
+  
+  .card-politic {
+    @apply border-l-4 border-politic-red;
+  }
+  
+  .btn {
+    @apply px-4 py-2 rounded-md font-medium transition-colors duration-200;
+  }
+  
+  .btn-primary {
+    @apply bg-blue-600 text-white hover:bg-blue-700;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-200 text-gray-800 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-200 dark:hover:bg-gray-600;
+  }
+  
+  .nav-link {
+    @apply px-3 py-2 rounded-md transition-colors duration-200 hover:bg-gray-100 dark:hover:bg-gray-800;
+  }
+  
+  .nav-link-active {
+    @apply bg-gray-100 dark:bg-gray-800 font-medium;
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "modules": [
+    {
+      "id": "pouvoir-politique",
+      "title": "Pouvoir politique et citoyenneté",
+      "description": "Fondements et exercice du pouvoir dans les sociétés démocratiques",
+      "icon": "Vote",
+      "color": "politic",
+      "chapitres": [
+        {
+          "id": "legitimite-pouvoir",
+          "title": "La légitimité du pouvoir politique",
+          "description": "Sources et formes de légitimité selon Max Weber",
+          "content": {
+            "introduction": "La légitimité du pouvoir politique est un concept fondamental en science politique qui désigne le consentement des gouvernés à l'autorité des gouvernants. Max Weber, sociologue allemand, a élaboré une typologie des formes de légitimité qui reste une référence incontournable.",
+            "sections": [
+              {
+                "id": "concept-legitimite",
+                "title": "Le concept de légitimité",
+                "content": "La légitimité politique désigne la reconnaissance par les gouvernés du droit des gouvernants à exercer le pouvoir. Elle se distingue de la légalité, qui concerne la conformité à la loi. Un pouvoir peut être légal sans être légitime (lorsque les lois ne sont pas acceptées par la population) et inversement. La légitimité est essentielle car elle permet l'exercice du pouvoir avec un minimum de coercition, les citoyens acceptant volontairement de se soumettre à l'autorité qu'ils reconnaissent comme légitime."
+              },
+              {
+                "id": "typologie-weber",
+                "title": "La typologie de Max Weber",
+                "content": "Max Weber distingue trois types idéaux de légitimité : 1) La légitimité traditionnelle, fondée sur le respect des coutumes et des traditions (monarchies héréditaires). 2) La légitimité charismatique, reposant sur les qualités exceptionnelles attribuées à un individu (leaders révolutionnaires, figures religieuses). 3) La légitimité légale-rationnelle, basée sur la croyance en la validité des règles et des procédures établies (démocraties modernes). Ces types peuvent coexister et se combiner dans la réalité."
+              },
+              {
+                "id": "evolution-legitimite",
+                "title": "L'évolution des formes de légitimité",
+                "content": "Weber observe une tendance historique à la rationalisation, avec le passage progressif de formes de légitimité traditionnelle et charismatique vers des formes légales-rationnelles. Dans les démocraties contemporaines, la légitimité repose principalement sur des procédures (élections, séparation des pouvoirs) mais peut être renforcée par des éléments charismatiques (personnalité des dirigeants) ou traditionnels (symboles nationaux, cérémonies). La crise de légitimité des institutions politiques dans de nombreux pays développés pose la question du renouvellement des sources de légitimité."
+              }
+            ],
+            "conclusion": "La typologie de Weber offre un cadre d'analyse pertinent pour comprendre les fondements du pouvoir politique et son évolution. Elle permet d'appréhender les crises de légitimité que peuvent traverser les régimes politiques et les stratégies mises en œuvre par les gouvernants pour renforcer leur légitimité."
+          }
+        },
+        {
+          "id": "formes-pouvoir",
+          "title": "Les différentes formes de pouvoir",
+          "description": "Pouvoir politique, économique, symbolique et leurs relations"
+        },
+        {
+          "id": "citoyennete-droits-devoirs",
+          "title": "La citoyenneté : droits et devoirs",
+          "description": "Dimensions juridique, politique et sociale de la citoyenneté"
+        },
+        {
+          "id": "evolution-citoyennete",
+          "title": "L'évolution de la citoyenneté",
+          "description": "Transformations historiques et enjeux contemporains"
+        }
+      ]
+    },
+    {
+      "id": "etat-democratie",
+      "title": "État et démocratisation",
+      "description": "Institutions étatiques et processus démocratiques",
+      "icon": "Building",
+      "color": "politic",
+      "chapitres": [
+        {
+          "id": "definition-evolution",
+          "title": "L'État : définition et évolution",
+          "description": "Caractéristiques de l'État moderne et son développement historique"
+        },
+        {
+          "id": "regimes-democratiques",
+          "title": "Les régimes démocratiques",
+          "description": "Principes et variantes des démocraties contemporaines",
+          "content": {
+            "introduction": "Les régimes démocratiques, bien que partageant des principes fondamentaux communs, présentent une grande diversité dans leur organisation institutionnelle et leur fonctionnement. Ce chapitre explore les caractéristiques essentielles des démocraties contemporaines et leurs principales variantes.",
+            "sections": [
+              {
+                "id": "principes-democratie",
+                "title": "Les principes fondamentaux de la démocratie",
+                "content": "La démocratie repose sur plusieurs principes essentiels : la souveraineté populaire (le pouvoir appartient au peuple), l'égalité politique (chaque citoyen dispose d'une voix égale), les libertés fondamentales (d'expression, d'association, de presse), le pluralisme politique (existence de plusieurs partis), l'État de droit (soumission des gouvernants et des gouvernés aux mêmes lois), et l'alternance politique (possibilité de changement pacifique de gouvernement). Ces principes constituent le socle commun des régimes démocratiques, mais leur mise en œuvre varie considérablement selon les contextes historiques et culturels."
+              },
+              {
+                "id": "democratie-representative",
+                "title": "La démocratie représentative",
+                "content": "La démocratie représentative est la forme la plus répandue de démocratie. Elle repose sur l'élection de représentants chargés de prendre des décisions au nom des citoyens. On distingue principalement deux modèles : le régime présidentiel, caractérisé par une séparation stricte des pouvoirs (États-Unis), et le régime parlementaire, où l'exécutif émane du législatif et lui est responsable (Royaume-Uni, Allemagne). Des formes mixtes existent également, comme le régime semi-présidentiel français. La démocratie représentative fait l'objet de critiques concernant la distance entre représentants et représentés, le poids des élites ou le risque de confiscation du pouvoir."
+              },
+              {
+                "id": "democratie-participative",
+                "title": "La démocratie participative et délibérative",
+                "content": "Face aux limites de la représentation, des formes complémentaires de démocratie se sont développées. La démocratie participative vise à impliquer davantage les citoyens dans la prise de décision à travers des dispositifs comme les budgets participatifs, les conseils de quartier ou les consultations publiques. La démocratie délibérative met l'accent sur la qualité du débat public et la recherche du consensus à travers des procédures comme les conférences de citoyens ou les jurys citoyens. Ces innovations démocratiques cherchent à revitaliser la participation citoyenne et à améliorer la qualité des décisions publiques."
+              }
+            ],
+            "conclusion": "Les régimes démocratiques contemporains se caractérisent par leur diversité et leur capacité d'adaptation. Si la démocratie représentative reste le modèle dominant, elle s'enrichit progressivement de mécanismes participatifs et délibératifs qui visent à approfondir l'idéal démocratique. L'enjeu pour les démocraties actuelles est de concilier efficacité gouvernementale et implication citoyenne dans un contexte de défiance croissante envers les institutions politiques."
+          }
+        },
+        {
+          "id": "processus-democratisation",
+          "title": "Les processus de démocratisation",
+          "description": "Transitions démocratiques et consolidation"
+        },
+        {
+          "id": "limites-democratie",
+          "title": "Les limites de la démocratie",
+          "description": "Crises et défis des systèmes démocratiques"
+        }
+      ]
+    },
+    {
+      "id": "action-publique",
+      "title": "Action publique",
+      "description": "Élaboration et mise en œuvre des politiques publiques",
+      "icon": "FileText",
+      "color": "politic",
+      "chapitres": [
+        {
+          "id": "elaboration-politiques",
+          "title": "L'élaboration des politiques publiques",
+          "description": "Acteurs, processus décisionnels, mise sur agenda"
+        },
+        {
+          "id": "mise-en-oeuvre",
+          "title": "La mise en œuvre de l'action publique",
+          "description": "Administration, street-level bureaucracy, résistances"
+        },
+        {
+          "id": "evaluation-politiques",
+          "title": "L'évaluation des politiques publiques",
+          "description": "Méthodes, critères, utilisation des résultats"
+        },
+        {
+          "id": "gouvernance-multi-niveaux",
+          "title": "La gouvernance multi-niveaux",
+          "description": "Articulation des échelles de décision, du local au global"
+        }
+      ]
+    },
+    {
+      "id": "participation",
+      "title": "Participation politique",
+      "description": "Formes d'engagement des citoyens dans la vie politique",
+      "icon": "Users2",
+      "color": "politic",
+      "chapitres": [
+        {
+          "id": "comportement-electoral",
+          "title": "Le comportement électoral",
+          "description": "Déterminants du vote, théories explicatives"
+        },
+        {
+          "id": "abstention-determinants",
+          "title": "L'abstention et ses déterminants",
+          "description": "Facteurs sociologiques et politiques de la non-participation"
+        },
+        {
+          "id": "nouvelles-formes",
+          "title": "Les nouvelles formes de participation",
+          "description": "Engagement associatif, pétitions, manifestations, activisme en ligne"
+        },
+        {
+          "id": "mouvements-sociaux",
+          "title": "Les mouvements sociaux",
+          "description": "Définition, évolution, impact politique"
+        }
+      ]
+    }
+  ]
+}

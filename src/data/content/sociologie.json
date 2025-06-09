@@ -1,0 +1,162 @@
+{
+  "modules": [
+    {
+      "id": "socialisation",
+      "title": "Socialisation et lien social",
+      "description": "Processus d'intégration des individus dans la société",
+      "icon": "Users",
+      "color": "socio",
+      "chapitres": [
+        {
+          "id": "socialisation-primaire-secondaire",
+          "title": "La socialisation primaire et secondaire",
+          "description": "Différentes phases et instances de socialisation",
+          "content": {
+            "introduction": "La socialisation est le processus par lequel les individus intériorisent les normes et les valeurs de la société dans laquelle ils vivent. Ce processus se déroule tout au long de la vie, mais on distingue généralement deux phases principales : la socialisation primaire et la socialisation secondaire.",
+            "sections": [
+              {
+                "id": "socialisation-primaire",
+                "title": "La socialisation primaire",
+                "content": "La socialisation primaire est la première phase de socialisation que connaît l'individu durant l'enfance. Elle se déroule principalement au sein de la famille, qui constitue le premier agent de socialisation. Durant cette phase, l'enfant acquiert le langage, les normes fondamentales de comportement et commence à construire son identité sociale. Cette socialisation est particulièrement déterminante car elle s'effectue dans un contexte affectif fort et conditionne en partie les socialisations ultérieures."
+              },
+              {
+                "id": "socialisation-secondaire",
+                "title": "La socialisation secondaire",
+                "content": "La socialisation secondaire intervient après la socialisation primaire et se poursuit tout au long de la vie. Elle correspond à l'intériorisation de normes et de valeurs propres à des groupes particuliers ou à des rôles sociaux spécifiques. Elle s'effectue par l'intermédiaire d'institutions comme l'école, les groupes de pairs, le milieu professionnel, les médias, etc. Contrairement à la socialisation primaire, elle est plus formelle et moins affective."
+              },
+              {
+                "id": "articulation",
+                "title": "L'articulation entre socialisation primaire et secondaire",
+                "content": "Les socialisations primaire et secondaire peuvent s'articuler de différentes manières. Elles peuvent être en continuité, lorsque les valeurs transmises par les différentes instances de socialisation sont cohérentes entre elles. Elles peuvent aussi être en rupture, lorsqu'il existe des contradictions entre les valeurs transmises, ce qui peut engendrer des tensions identitaires chez l'individu. Peter Berger et Thomas Luckmann ont particulièrement étudié cette articulation dans leur ouvrage 'La Construction sociale de la réalité'."
+              }
+            ],
+            "conclusion": "La distinction entre socialisation primaire et secondaire permet de comprendre comment les individus intériorisent progressivement les normes et valeurs de leur société tout en s'adaptant à des contextes sociaux spécifiques. Ce processus continu façonne l'identité sociale des individus et assure la cohésion de la société."
+          }
+        },
+        {
+          "id": "instances-socialisation",
+          "title": "Les instances de socialisation",
+          "description": "Famille, école, pairs, médias, travail"
+        },
+        {
+          "id": "diversite-socialisation",
+          "title": "La diversité des processus de socialisation",
+          "description": "Variations selon le genre, la classe sociale, l'origine culturelle"
+        },
+        {
+          "id": "lien-social-integration",
+          "title": "Lien social et intégration",
+          "description": "Solidarité, cohésion sociale, anomie"
+        }
+      ]
+    },
+    {
+      "id": "groupes-sociaux",
+      "title": "Groupes et réseaux sociaux",
+      "description": "Formes d'organisation et d'interaction sociales",
+      "icon": "Network",
+      "color": "socio",
+      "chapitres": [
+        {
+          "id": "definition-typologie",
+          "title": "Les groupes sociaux : définition et typologie",
+          "description": "Caractéristiques et types de groupes sociaux"
+        },
+        {
+          "id": "reseaux-capital-social",
+          "title": "Les réseaux sociaux et le capital social",
+          "description": "Structure des réseaux, ressources relationnelles"
+        },
+        {
+          "id": "sociabilite-numerique",
+          "title": "La sociabilité numérique",
+          "description": "Impact des technologies numériques sur les relations sociales"
+        },
+        {
+          "id": "evolution-sociabilite",
+          "title": "L'évolution des formes de sociabilité",
+          "description": "Transformations historiques des modes de relation sociale"
+        }
+      ]
+    },
+    {
+      "id": "controle-social",
+      "title": "Contrôle social et déviance",
+      "description": "Mécanismes de régulation des comportements sociaux",
+      "icon": "Shield",
+      "color": "socio",
+      "chapitres": [
+        {
+          "id": "normes-deviance",
+          "title": "Normes et déviance",
+          "description": "Définition des normes sociales et des comportements déviants",
+          "content": {
+            "introduction": "Les normes sociales constituent les règles qui régissent les comportements au sein d'une société. La déviance, quant à elle, désigne les comportements qui s'écartent de ces normes. Ce chapitre explore la relation entre normes et déviance, ainsi que les différentes approches théoriques pour comprendre ce phénomène.",
+            "sections": [
+              {
+                "id": "normes-sociales",
+                "title": "Les normes sociales",
+                "content": "Les normes sociales sont des règles de conduite, explicites ou implicites, qui définissent les comportements acceptables dans un groupe ou une société. Elles peuvent être formelles (lois, règlements) ou informelles (coutumes, traditions, usages). Les normes varient selon les sociétés, les époques et les contextes sociaux. Elles sont intériorisées par les individus au cours du processus de socialisation et sont renforcées par différentes formes de sanctions, positives (récompenses) ou négatives (punitions)."
+              },
+              {
+                "id": "deviance",
+                "title": "La déviance",
+                "content": "La déviance désigne tout comportement qui transgresse les normes sociales en vigueur dans un groupe ou une société donnée. Elle est relative aux normes en place et peut donc varier considérablement selon les contextes sociaux et historiques. Un comportement considéré comme déviant dans une société peut être parfaitement accepté dans une autre. Howard Becker, dans son ouvrage 'Outsiders', souligne que la déviance n'est pas une qualité inhérente à un acte, mais résulte d'un processus d'étiquetage social."
+              },
+              {
+                "id": "theories-deviance",
+                "title": "Les théories de la déviance",
+                "content": "Plusieurs approches théoriques tentent d'expliquer la déviance. L'approche fonctionnaliste (Durkheim, Merton) considère la déviance comme le résultat de dysfonctionnements sociaux ou de l'anomie. L'interactionnisme symbolique (Becker, Goffman) met l'accent sur le processus d'étiquetage et de stigmatisation qui transforme un individu en déviant. Les théories du conflit (Marx, Bourdieu) voient la déviance comme le produit des inégalités sociales et des rapports de domination. Enfin, les théories du choix rationnel considèrent la déviance comme le résultat d'un calcul coûts-bénéfices effectué par les individus."
+              }
+            ],
+            "conclusion": "L'étude des normes et de la déviance permet de comprendre comment les sociétés définissent les comportements acceptables et gèrent les transgressions. Elle révèle également les mécanismes de contrôle social et les enjeux de pouvoir qui sous-tendent la définition et l'application des normes sociales."
+          }
+        },
+        {
+          "id": "formes-controle-social",
+          "title": "Les formes du contrôle social",
+          "description": "Contrôle formel et informel, sanctions"
+        },
+        {
+          "id": "construction-deviance",
+          "title": "La construction sociale de la déviance",
+          "description": "Processus d'étiquetage, stigmatisation"
+        },
+        {
+          "id": "evolution-delinquance",
+          "title": "Évolution des formes de délinquance",
+          "description": "Tendances contemporaines, nouvelles formes de déviance"
+        }
+      ]
+    },
+    {
+      "id": "stratification",
+      "title": "Stratification et mobilité sociale",
+      "description": "Organisation hiérarchique de la société et changements de position sociale",
+      "icon": "ArrowUpDown",
+      "color": "socio",
+      "chapitres": [
+        {
+          "id": "theories-classes-sociales",
+          "title": "Les théories des classes sociales",
+          "description": "Marx, Weber, Bourdieu et les approches contemporaines"
+        },
+        {
+          "id": "mesure-mobilite",
+          "title": "La mesure de la mobilité sociale",
+          "description": "Tables de mobilité, fluidité sociale, déclassement"
+        },
+        {
+          "id": "determinants-mobilite",
+          "title": "Les déterminants de la mobilité sociale",
+          "description": "Rôle de l'école, de la famille, du capital culturel"
+        },
+        {
+          "id": "evolution-structure-sociale",
+          "title": "Évolution de la structure sociale",
+          "description": "Transformations des classes sociales, moyennisation, polarisation"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "modules": [
+    {
+      "id": "microeconomie",
+      "title": "Microéconomie",
+      "description": "Étude des comportements économiques individuels et des marchés",
+      "icon": "TrendingUp",
+      "color": "eco",
+      "chapitres": [
+        {
+          "id": "marche-prix",
+          "title": "Le marché et la formation des prix",
+          "description": "Mécanismes de l'offre et de la demande, équilibre du marché",
+          "content": {
+            "introduction": "Le marché est un lieu de rencontre entre l'offre et la demande qui permet la formation des prix. Dans ce chapitre, nous étudierons les mécanismes fondamentaux qui régissent le fonctionnement des marchés.",
+            "sections": [
+              {
+                "id": "offre-demande",
+                "title": "L'offre et la demande",
+                "content": "L'offre représente la quantité de biens ou services que les producteurs sont prêts à vendre à un prix donné. La demande représente la quantité de biens ou services que les consommateurs sont prêts à acheter à un prix donné. La loi de l'offre stipule que l'offre augmente lorsque le prix augmente. La loi de la demande stipule que la demande diminue lorsque le prix augmente."
+              },
+              {
+                "id": "equilibre-marche",
+                "title": "L'équilibre du marché",
+                "content": "L'équilibre du marché est atteint lorsque l'offre égale la demande. À ce point, le prix d'équilibre et la quantité d'équilibre sont déterminés. Si le prix est supérieur au prix d'équilibre, il y a un excédent d'offre. Si le prix est inférieur au prix d'équilibre, il y a une pénurie."
+              },
+              {
+                "id": "elasticites",
+                "title": "Les élasticités",
+                "content": "L'élasticité-prix de la demande mesure la sensibilité de la demande aux variations de prix. L'élasticité-prix de l'offre mesure la sensibilité de l'offre aux variations de prix. Une élasticité supérieure à 1 en valeur absolue est considérée comme élastique, tandis qu'une élasticité inférieure à 1 est considérée comme inélastique."
+              }
+            ],
+            "conclusion": "La compréhension des mécanismes de marché est fondamentale en économie. Elle permet d'analyser comment les prix se forment et comment ils évoluent en fonction des variations de l'offre et de la demande."
+          }
+        },
+        {
+          "id": "concurrence",
+          "title": "La concurrence parfaite et imparfaite",
+          "description": "Différentes structures de marché et leurs implications"
+        },
+        {
+          "id": "defaillances-marche",
+          "title": "Les défaillances du marché",
+          "description": "Externalités, biens publics, asymétries d'information"
+        },
+        {
+          "id": "comportement-consommateur",
+          "title": "Le comportement du consommateur",
+          "description": "Théorie de l'utilité, contrainte budgétaire, choix optimal"
+        }
+      ]
+    },
+    {
+      "id": "macroeconomie",
+      "title": "Macroéconomie",
+      "description": "Étude des phénomènes économiques à l'échelle globale",
+      "icon": "LineChart",
+      "color": "eco",
+      "chapitres": [
+        {
+          "id": "croissance",
+          "title": "La croissance économique",
+          "description": "Définition, mesure, facteurs et limites de la croissance",
+          "content": {
+            "introduction": "La croissance économique désigne l'augmentation soutenue pendant une période longue de la production de biens et services dans une économie. Elle est généralement mesurée par le taux de variation du Produit Intérieur Brut (PIB) réel.",
+            "sections": [
+              {
+                "id": "definition",
+                "title": "Définition et mesure de la croissance économique",
+                "content": "La croissance économique est mesurée par le taux de variation du PIB réel. Le PIB peut être calculé selon trois approches équivalentes : l'approche production (somme des valeurs ajoutées), l'approche revenus (somme des revenus distribués) et l'approche dépenses (somme des dépenses finales). Il est important de distinguer la croissance nominale (en valeur) de la croissance réelle (en volume)."
+              },
+              {
+                "id": "facteurs",
+                "title": "Les facteurs de la croissance économique",
+                "content": "Plusieurs facteurs contribuent à la croissance économique à long terme : les facteurs de production (travail, capital, ressources naturelles), le progrès technique (considéré comme le principal moteur de la croissance à long terme), et les institutions et l'organisation (qualité des institutions, organisation des marchés, politiques économiques)."
+              },
+              {
+                "id": "modeles",
+                "title": "Les modèles de croissance",
+                "content": "Plusieurs modèles théoriques tentent d'expliquer les mécanismes de la croissance économique : le modèle de Solow (croissance exogène) qui met l'accent sur l'accumulation du capital et le progrès technique exogène, et les modèles de croissance endogène qui intègrent le progrès technique comme une variable endogène."
+              },
+              {
+                "id": "limites",
+                "title": "Limites et critiques de la croissance",
+                "content": "Malgré ses effets positifs sur le niveau de vie, la croissance économique fait l'objet de nombreuses critiques : limites environnementales (épuisement des ressources, changement climatique), limites sociales (inégalités, exclusion sociale), et alternatives à la croissance (développement durable, croissance verte, décroissance, nouveaux indicateurs)."
+              }
+            ],
+            "conclusion": "La croissance économique est un objectif majeur des politiques économiques, mais elle doit être analysée de manière critique en tenant compte de ses limites et de ses conséquences sociales et environnementales."
+          }
+        },
+        {
+          "id": "fluctuations",
+          "title": "Les fluctuations économiques",
+          "description": "Cycles économiques, crises, politiques de stabilisation"
+        },
+        {
+          "id": "chomage-inflation",
+          "title": "Le chômage et l'inflation",
+          "description": "Causes, conséquences et politiques de lutte"
+        },
+        {
+          "id": "politiques-stabilisation",
+          "title": "Les politiques de stabilisation",
+          "description": "Politiques budgétaire et monétaire, objectifs et instruments"
+        }
+      ]
+    },
+    {
+      "id": "mondialisation",
+      "title": "Mondialisation",
+      "description": "Intégration croissante des économies à l'échelle mondiale",
+      "icon": "Globe",
+      "color": "eco",
+      "chapitres": [
+        {
+          "id": "fondements-commerce",
+          "title": "Les fondements du commerce international",
+          "description": "Avantages comparatifs, spécialisation, gains à l'échange"
+        },
+        {
+          "id": "globalisation-financiere",
+          "title": "La globalisation financière",
+          "description": "Marchés financiers internationaux, flux de capitaux"
+        },
+        {
+          "id": "firmes-multinationales",
+          "title": "Les firmes multinationales",
+          "description": "Stratégies, impact sur les économies nationales"
+        },
+        {
+          "id": "desequilibres-mondiaux",
+          "title": "Les déséquilibres mondiaux",
+          "description": "Balances commerciales, taux de change, crises"
+        }
+      ]
+    },
+    {
+      "id": "politiques-economiques",
+      "title": "Politiques économiques",
+      "description": "Interventions de l'État dans l'économie",
+      "icon": "Briefcase",
+      "color": "eco",
+      "chapitres": [
+        {
+          "id": "politique-budgetaire",
+          "title": "La politique budgétaire",
+          "description": "Budget de l'État, déficit, dette publique"
+        },
+        {
+          "id": "politique-monetaire",
+          "title": "La politique monétaire",
+          "description": "Banques centrales, taux d'intérêt, masse monétaire"
+        },
+        {
+          "id": "politiques-emploi",
+          "title": "Les politiques de l'emploi",
+          "description": "Mesures pour réduire le chômage, flexibilité du marché du travail"
+        },
+        {
+          "id": "regulation-economique",
+          "title": "La régulation économique",
+          "description": "Réglementation des marchés, politique de la concurrence"
+        }
+      ]
+    }
+  ]
+}

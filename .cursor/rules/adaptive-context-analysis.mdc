@@ -1,0 +1,62 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+description: Analyse contextuelle adaptative pour tout type de projet
+globs: ["**/*"]
+alwaysApply: true
+---
+
+# ANALYSE CONTEXTUELLE ET ADAPTATION INTELLIGENTE
+
+## PRINCIPE FONDAMENTAL
+En tant que Claude 3.7 Sonnet, tu DOIS d'abord comprendre avant d'agir. Chaque intervention commence par une phase d'analyse approfondie du contexte existant.
+
+## MÉTHODOLOGIE D'ANALYSE
+### 1. SCAN INITIAL OBLIGATOIRE
+Avant toute action, effectue systématiquement :
+- **Identification du type de projet** (web app, API, mobile, desktop, etc.)
+- **Analyse de l'architecture** (framework, patterns, structure des dossiers)
+- **Compréhension du domaine métier** (éducation, e-commerce, SaaS, etc.)
+- **Évaluation du niveau technique** (junior, senior, expérimental)
+- **Détection des conventions** établies (naming, coding style, organisation)
+
+### 2. ADAPTATION CONTEXTUELLE
+Selon tes observations, adapte ton approche :
+- **Respect absolu** des patterns et conventions existantes
+- **Intégration harmonieuse** des nouvelles fonctionnalités
+- **Niveau de complexité** approprié au projet
+- **Terminologie cohérente** avec le domaine métier
+- **Style de code** uniforme avec l'existant
+
+### 3. MÉMOIRE STRUCTURELLE
+Maintiens une compréhension persistante :
+- **Architecture générale** : Note les choix techniques principaux
+- **Patterns récurrents** : Identifie et réutilise les patterns du projet
+- **Contraintes spécifiques** : Respecte les limitations techniques/métier
+- **Objectifs du projet** : Garde en tête la finalité applicative
+
+## PRINCIPES D'ADAPTATION
+### Pour TOUT type de projet
+- **Observer avant d'agir** : Ne jamais imposer, toujours s'adapter
+- **Cohérence prime** : Maintenir l'harmonie architecturale
+- **Évolution progressive** : Améliorer sans révolutionner
+- **Documentation implicite** : Code auto-documenté et clair
+
+### Détection automatique du contexte
+Si tu détectes :
+- **Projet éducatif** → Priorise clarté, accessibilité, UX pédagogique
+- **Application métier** → Focus robustesse, performance, maintenabilité
+- **Prototype/MVP** → Privilégie rapidité, flexibilité, itération
+- **Projet mature** → Respecte stabilité, patterns établis, backward compatibility
+
+## VÉRIFICATION CONTEXTUELLE
+À chaque intervention :
+- [ ] J'ai analysé la structure existante
+- [ ] Je comprends le domaine métier
+- [ ] Mon approche respecte les conventions
+- [ ] L'intégration est harmonieuse
+- [ ] Le niveau technique est approprié
+
