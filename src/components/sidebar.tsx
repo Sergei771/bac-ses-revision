@@ -1,10 +1,12 @@
 "use client";
 
+import { useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { 
   BarChart3, 
   BookOpen, 
+  Clock,
   GraduationCap, 
   Home, 
   LineChart, 
@@ -13,9 +15,13 @@ import {
   Users, 
   Vote
 } from "lucide-react";
+import { useSession } from "@/providers/session-provider";
+import SessionModal from "./session-modal";
 
 export default function Sidebar() {
   const pathname = usePathname();
+  const { session } = useSession();
+  const [isModalOpen, setIsModalOpen] = useState(false);
   
   const isActive = (path: string) => {
     return pathname === path || pathname?.startsWith(`${path}/`);
@@ -65,11 +71,34 @@ export default function Sidebar() {
           <p className="text-sm text-gray-600 dark:text-gray-400 mb-3">
             Suivez votre progression et gardez le rythme !
           </p>
-          <button className="w-full btn btn-primary bg-eco-blue hover:bg-eco-blue/90">
-            Démarrer une session
-          </button>
+          {session.active ? (
+            <div className="space-y-2">
+              <div className="bg-white dark:bg-gray-700 rounded-md p-2 text-center">
+                <span className="text-sm font-medium">Session en cours</span>
+              </div>
+              <button 
+                onClick={() => setIsModalOpen(false)} 
+                className="w-full btn btn-primary bg-green-500 hover:bg-green-600 flex items-center justify-center"
+              >
+                <Clock className="h-4 w-4 mr-2" />
+                Continuer
+              </button>
+            </div>
+          ) : (
+            <button 
+              onClick={() => setIsModalOpen(true)} 
+              className="w-full btn btn-primary bg-eco-blue hover:bg-eco-blue/90 transition-transform hover:scale-105"
+            >
+              Démarrer une session
+            </button>
+          )}
         </div>
       </div>
+      
+      <SessionModal 
+        isOpen={isModalOpen} 
+        onClose={() => setIsModalOpen(false)} 
+      />
     </aside>
   );
 }

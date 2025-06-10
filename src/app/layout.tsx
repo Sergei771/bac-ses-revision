@@ -3,8 +3,10 @@ import { Inter, Montserrat } from 'next/font/google';
 import '@/styles/globals.css';
 import { ThemeProvider } from '@/components/theme-provider';
 import { ProgressProvider } from '@/providers/progress-provider';
+import { SessionProvider } from '@/providers/session-provider';
 import Header from '@/components/header';
 import Sidebar from '@/components/sidebar';
+import SessionTracker from '@/components/session-tracker';
 
 const inter = Inter({ 
   subsets: ['latin'],
@@ -38,15 +40,18 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <ProgressProvider>
-            <div className="flex flex-col min-h-screen">
-              <Header />
-              <div className="flex flex-1 overflow-hidden">
-                <Sidebar />
-                <main className="flex-1 overflow-y-auto p-4 md:p-6">
-                  {children}
-                </main>
+            <SessionProvider>
+              <div className="flex flex-col min-h-screen">
+                <Header />
+                <div className="flex flex-1 overflow-hidden">
+                  <Sidebar />
+                  <main className="flex-1 overflow-y-auto p-4 md:p-6">
+                    {children}
+                  </main>
+                </div>
+                <SessionTracker />
               </div>
-            </div>
+            </SessionProvider>
           </ProgressProvider>
         </ThemeProvider>
       </body>
