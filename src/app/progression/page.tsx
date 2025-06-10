@@ -80,16 +80,22 @@ export default function ProgressionPage() {
       setBestSubject(best);
       
       // Récupérer les activités récentes
-      setRecentActivities(getRecentActivities(5));
+      const recentActivities = getRecentActivities(5);
+      setRecentActivities(recentActivities);
       
       // Calculer le streak (nombre de jours consécutifs d'activité)
       // Ici c'est une simulation, dans un environnement réel cela serait calculé à partir des données
-      setStreak(calculateStreak(progress.lastActivity));
+      setStreak(calculateStreak(recentActivities));
     }
   }, [isLoading, progress, getRecentActivities]);
   
   // Calculer le streak à partir des activités
-  const calculateStreak = (activities: any[]) => {
+  const calculateStreak = (activities: Array<{
+    type: 'chapter' | 'quiz';
+    id: string;
+    subjectId: 'economie' | 'sociologie' | 'science-politique';
+    timestamp: string;
+  }>) => {
     if (!activities || activities.length === 0) return 0;
     
     // Logique simplifiée pour l'exemple
@@ -402,9 +408,9 @@ export default function ProgressionPage() {
                     <h3 className="font-medium">
                       {activity.type === "chapter" ? "Lecture d'un chapitre" : "Réalisation d'un quiz"}
                     </h3>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">
-                      {activity.id.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase())}
-                    </p>
+                                      <p className="text-sm text-gray-600 dark:text-gray-400">
+                    {activity.id.replace(/-/g, " ").replace(/\b\w/g, (letter: string) => letter.toUpperCase())}
+                  </p>
                     <p className="text-xs text-gray-500 mt-1">
                       {formatActivityDate(activity.timestamp)}
                     </p>
