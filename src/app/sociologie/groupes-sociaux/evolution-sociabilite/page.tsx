@@ -332,41 +332,36 @@ export default function EvolutionSociabilitePage() {
                 </div>
               </>
             )}
-
-            <div className="mt-8 border-t border-gray-200 dark:border-gray-700 pt-4">
-              <h3 className="font-semibold text-lg mb-3">Notions clés à retenir</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                {notionsCles.map((notion) => (
-                  <div key={notion.id} className="bg-gray-50 dark:bg-gray-800/50 p-3 rounded-lg">
-                    <h4 className={`font-medium text-${accentColor} mb-1`}>{notion.title}</h4>
-                    <p className="text-sm text-gray-700 dark:text-gray-300">{notion.explication}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            <div className="mt-8 flex justify-between">
-              <Link 
-                href={`/quiz/${subject}/${moduleSlug}/${slug}`}
-                className={`btn btn-primary bg-${accentColor} hover:bg-${accentColor}/90 flex items-center`}
-              >
-                <HelpCircle className="h-5 w-5 mr-2" />
-                Tester mes connaissances
-              </Link>
-              <button
-                onClick={handleMarkAsCompleted}
-                className={`flex items-center px-4 py-2 rounded-md transition-colors ${
-                  isCompleted
-                    ? "bg-green-100 text-green-700 dark:bg-green-900/20 dark:text-green-400"
-                    : "bg-gray-100 text-gray-700 dark:bg-gray-700 dark:text-gray-300"
-                }`}
-              >
-                <CheckCircle className="h-5 w-5 mr-1" />
-                {isCompleted ? "Chapitre terminé" : "Marquer comme terminé"}
-              </button>
-            </div>
           </motion.div>
         </div>
+
+        <aside className="md:w-64 w-full flex-shrink-0">
+          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 md:sticky md:top-24">
+            <h3 className={`font-semibold text-lg mb-4 flex items-center text-${accentColor}`}><BookMarked className="h-5 w-5 mr-2" />Ressources</h3>
+            <div className="space-y-4">
+              <div className={`p-3 bg-${accentColor}/5 dark:bg-${accentColor}/10 rounded-lg`}>
+                <h4 className={`font-medium text-${accentColor} mb-1 flex items-center`}><HelpCircle className="h-5 w-5 mr-1.5"/>Quiz associé</h4>
+                <p className="text-sm text-gray-600 dark:text-gray-300 mb-2">Testez vos connaissances sur l'évolution des formes de sociabilité.</p>
+                <Link 
+                  href={`/quiz/${subject}/${moduleSlug}/${slug}`}
+                  className={`text-sm text-white bg-${accentColor} px-3 py-1.5 rounded inline-flex items-center hover:bg-${accentColor}/80 transition-colors`}
+                >
+                  Faire le quiz <ArrowRight className="h-3.5 w-3.5 ml-1" />
+                </Link>
+              </div>
+              <div className="p-3 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                <h4 className="font-medium text-sm mb-1">Notions clés</h4>
+                <ul className="text-xs text-gray-600 dark:text-gray-300 space-y-0.5">
+                  {notionsCles.map(notion => (
+                     <li key={notion.id} className="cursor-default" title={notion.explication}>
+                        <HelpCircle className="h-3 w-3 inline mr-1 opacity-60" />{notion.title}
+                     </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </aside>
       </div>
     </div>
   );
